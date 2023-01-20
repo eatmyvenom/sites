@@ -7,7 +7,7 @@ export default function page() {
 
   return <div style={{padding: "18px"}}>
     {ls.map(path => {
-      return <a style={{color: "#44a3e7"}} key={path} href={path}> {path.split("/").at(-1)} </a>
+      return <><a style={{color: "#44a3e7"}} key={path} href={path}> {path.split("/").at(-1)} </a><br /></>
     })}
   </div>
 }
