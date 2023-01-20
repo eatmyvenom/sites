@@ -1,0 +1,76 @@
+h1 {
+  font-size: 120px;
+  color: transparent;
+  display: block;
+  text-align: center;
+  background: #44a3e7;
+  background-image: linear-gradient(
+    to right,
+    #bb00dd,
+    #44a3e7,
+    #bb00dd,
+    #44a3e7
+  );
+  background-size: 300%;
+  background-clip: text;
+  box-sizing: border-box;
+  background-repeat: repeat;
+  animation: gradient 7.5s linear infinite;
+  padding-bottom: 5px;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+main {
+  padding: 0 25% 0 25%;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  line-height: 1.25;
+  padding: 10px;
+}
+
+h4 {
+  margin: auto;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #ee0061;
+}
+
+a {
+  text-decoration: none;
+  color: #44a3e7;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    display: block;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+  font-size: 20px;
+}
+
+body,
+html {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  background: #181c30;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 1.5% 0 1.5% 0;
+}
+
+header {
+  display: block;
+  color: white;
+  width: 100%;
+  background: #0066cc;
+}
+
+main {
+  padding: 0.5%;
+}
+
+li {
+  white-space: pre;
+}
+
+main div,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: auto;
+  width: 98%;
+}
+
+nav {
+  display: block;
+  height: 2.5%;
+  margin: auto;
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: flex;
+}
+
+nav a,
+nav button {
+  background: #44a3e7;
+  color: white !important;
+  text-decoration: none;
+  padding: 0.2% 1% 0.2% 1%;
+  border: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+}
+
+nav a:hover,
+nav button:hover {
+  z-index: 5;
+  box-shadow: 0px 0px 15px black;
+}
+
+main a {
+  color: #06c;
+}

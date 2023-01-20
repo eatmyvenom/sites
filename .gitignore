@@ -1,0 +1,16 @@
+dist
+node_modules
+.turbo
+package-lock.json
+.yarn/
+*.tsbuildinfo
+*.zip
+*.tar
+*.tar.xz
+*.tar.gz
+*.7z
+*.rar
+.swc
+.next
+.
+coverage

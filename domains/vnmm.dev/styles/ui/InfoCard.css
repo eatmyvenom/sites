@@ -1,0 +1,37 @@
+a.infoCard {
+  text-decoration: none;
+  color: #44a3e7 !important;
+  display: inline-block;
+  padding: 1%;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #bb00dd, #44a3e7);
+  border-image-slice: 1;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  transition-duration: 0.3s;
+  text-align: center;
+}
+
+a.infoCard:hover {
+  box-shadow: -2px -2px 5px 1px #8c54fe, 2px 2px 5px 1px #0066cc;
+}
+
+a.infoCard div {
+  display: block;
+  padding: 5%;
+  width: min(188px, 7vw);
+  height: min(188px, 7vw);
+}
+
+@media only screen and (max-width: 768px) {
+  a.infoCard {
+    display: block;
+    width: max-content;
+  }
+
+  a.infoCard div {
+    width: 60vw;
+  }
+}
