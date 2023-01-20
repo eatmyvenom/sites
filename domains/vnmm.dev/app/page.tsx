@@ -12,7 +12,7 @@ export default function Page() {
       <main>
         <InfoCard
           text="Find Me"
-          destination="https://vnmm.dev/links.html"
+          destination="/links"
           image="https://i.vnmm.dev/v.png"
         />
         <InfoCard
