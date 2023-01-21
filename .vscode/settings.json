@@ -1,6 +1,10 @@
 {
   "typescript.tsdk": "../../node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
   "conventionalCommits.scopes": [
     "vnmm.dev"
   ]
